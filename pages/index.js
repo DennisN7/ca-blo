@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 export default function Home({ posts }) {
   return (
     <div className={styles.container}>
-      <h1>Car Blog Yetu</h1>
+      <h1>Turbo Blog Yetu</h1>
       <ul>
         {posts.map(post => (
           <li key={post.fields.slug}>
